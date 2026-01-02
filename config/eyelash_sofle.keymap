@@ -74,7 +74,7 @@
 &kp TAB    &kp Q      &kp W         &kp E      &kp R      &kp T         &kp DOWN_ARROW   &kp Y             &kp U      &kp I              &kp O      &kp P      &kp BSLH
 &kp CAPS   &kp A      &kp S         &kp D      &kp F      &kp G         &kp LEFT_ARROW   &kp H             &kp J      &kp K              &kp L      &kp SEMI   &kp APOS
 &kp LSHFT  &kp Z      &kp X         &kp C      &kp V      &kp B         &kp RIGHT_ARROW  &kp N             &kp M      &kp COMMA          &kp DOT    &kp FSLH   &kp ENTER
-&sl 1      &kp LCTRL  &kp LEFT_ALT  &kp SPACE  &kp SPACE  &kp ESCAPE    &sl 0            &kp LEFT_BRACKET  &kp SPACE  &kp RIGHT_BRACKET  &kp MINUS  &kp EQUAL
+&sl 1      &kp LCTRL  &kp LEFT_ALT  &kp SPACE  &kp SPACE  &kp ESCAPE    &studio_unlock   &kp LEFT_BRACKET  &kp SPACE  &kp RIGHT_BRACKET  &kp MINUS  &kp EQUAL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -87,7 +87,7 @@
 &kp TAB         &kp Q             &kp W         &kp E         &kp R         &kp T     &kp DOWN_ARROW  &kp Y             &kp U      &kp I              &kp O       &kp P          &kp BACKSLASH
 &kp CAPS        &kp A             &kp S         &kp D         &kp F         &kp G     &kp LEFT        &kp H             &kp J      &kp K              &kp L       &kp SEMICOLON  &kp SINGLE_QUOTE
 &kp LEFT_SHIFT  &kp ESCAPE        &kp Z         &kp X         &kp C         &kp V     &kp RIGHT       &kp N             &kp M      &kp COMMA          &kp PERIOD  &kp SLASH      &kp ENTER
-&to 1           &kp LEFT_CONTROL  &kp LEFT_ALT  &kp SPACE     &kp SPACE     &kp B     &to 0           &kp LEFT_BRACKET  &kp SPACE  &kp RIGHT_BRACKET  &kp MINUS   &kp EQUAL
+&to 0           &kp LEFT_CONTROL  &kp LEFT_ALT  &kp SPACE     &kp SPACE     &kp B     &studio_unlock  &kp LEFT_BRACKET  &kp SPACE  &kp RIGHT_BRACKET  &kp MINUS   &kp EQUAL
             >;
 
             display-name = "layer1";
