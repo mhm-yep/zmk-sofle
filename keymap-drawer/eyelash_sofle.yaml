@@ -118,13 +118,13 @@ layers:
   - .
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: layer1, h: '$$mdi:gesture-tap-hold$$', type: held}
+  - {t: layer1, h: toggle, type: held}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - B
-  - {t: LAYER0, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: LAYER0, h: toggle}
   - {t: '[', s: '{'}
   - $$mdi:keyboard-space$$
   - {t: ']', s: '}'}
